@@ -1,0 +1,78 @@
+.main_layout {
+  width: 100vw;
+  height: 100vh;
+  min-height: 900px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  .login_form {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+
+    .login_form-card {
+      width: 360px;
+      border: 0;
+    }
+
+    .login_form-logo {
+      margin-bottom: 24px;
+    }
+
+    .login_form-desc {
+      margin-bottom: 0;
+    }
+
+    .login_form-version {
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.88);
+    }
+  }
+
+  .layout_login_left {
+    height: 100%;
+    background-color: #f5f5f5;
+    flex: 1;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .btn_login {
+    width: 100%;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .layout_login_left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main_layout {
+    .login_form {
+      .login_form-card {
+        width: 100%;
+      }
+    }
+  }
+}

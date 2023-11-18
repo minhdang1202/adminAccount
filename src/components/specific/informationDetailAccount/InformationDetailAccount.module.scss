@@ -1,0 +1,63 @@
+.content {
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+
+  .content_left {
+    display: flex;
+
+    .information {
+      margin: 0 16px;
+      font-size: 14px;
+      line-height: 22px;
+
+      .name {
+        color: rgba(0, 0, 0, 1);
+
+        font-style: normal;
+        font-weight: 600;
+
+        .userName {
+          color: #1890ff;
+          font-weight: 400;
+        }
+      }
+
+      .email,
+      .phone,
+      .quantity,
+      .shortDescription {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+      }
+
+      .quantity {
+        font-weight: 600;
+
+        .divider {
+          border-inline-start: 1px solid rgba(0, 0, 0, 1);
+        }
+      }
+
+      .shortDescription {
+        color: rgba(0, 0, 0, 0.45);
+        font-weight: 400;
+      }
+    }
+  }
+
+  .status {
+    float: right;
+
+    .label {
+      margin-right: 12px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.adminLayout_logo {
+  height: 32px;
+  margin: 16px;
+  background: white;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar_container {
+  position: relative;
+  height: 100vh;
+  flex-basis: 12vw;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+
+  > div:last-child {
+    position: relative;
+    width: 100% !important;
+  }
+}
+.sidebar_container_long_text {
+  min-width: 200px !important;
+}

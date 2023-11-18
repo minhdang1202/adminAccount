@@ -1,0 +1,118 @@
+.post-detail_container {
+  width: 360px;
+
+  .post-detail_content {
+    position: relative;
+
+    .post-detail_content-action {
+      position: absolute;
+      right: 16px;
+      bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .post-detail_content-action-item {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+
+        .post-detail_content-action-icon {
+          font-size: 26px;
+        }
+
+        .post-detail_content-action-icon.action-icon_heart {
+          color: #f5222d;
+        }
+
+        .post-detail_content-action-icon.action-icon_view {
+          color: #ffffff;
+        }
+
+        .post-detail_content-action-number {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .post-detail_media {
+      border-radius: 6px;
+      overflow: hidden;
+      height: 640px;
+      display: flex;
+      align-items: center;
+      background: #000;
+
+      .post-detail_video,
+      .post-detail_img {
+        width: 100%;
+        height: auto;
+        max-width: 360px;
+        max-height: inherit;
+        object-fit: contain;
+      }
+    }
+  }
+  .post-detail_description {
+    margin-top: 16px;
+
+    .post-detail_user-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+
+      .post-detail_user-name {
+        padding-left: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        flex: 1;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+
+    .post-detail_description-caption {
+      height: 160px;
+      font-size: 13px;
+      font-weight: 400;
+      text-overflow: ellipsis;
+      margin-bottom: 0;
+      line-height: 131%;
+      border: 1px solid #d9d9d9;
+      border-radius: 6px;
+      overflow: auto;
+      padding: 12px;
+      margin-bottom: 0;
+    }
+
+    .post-detail_no-caption {
+      color: rgba(0, 0, 0, 0.45);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+}
+
+.unRemove {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+
+.unRemove:hover,
+.unRemove:active {
+  color: white !important;
+  background-color: rgb(2, 160, 2);
+  border-color: rgb(2, 160, 2) !important;
+}
+
+.post-detail_username {
+  font-weight: normal;
+  color: rgba(24, 144, 255, 1);
+}

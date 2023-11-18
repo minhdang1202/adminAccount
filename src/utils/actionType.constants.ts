@@ -1,0 +1,15 @@
+export const LOGIN = 'LOGIN';
+export const ACCOUNT_FANS_GET_ALL = 'account/fans/getAll';
+export const ACCOUNT_FANS_GET_DETAIL = 'account/fans/accountDetail/get';
+export const ACCOUNT_FAN_GET_ACTIVITY = 'account/fans/accountActivity/get';
+export const ACCOUNT_INFLUENCER_GET_ALL = 'account/influencer/getAll';
+export const ACCOUNT_LIST_POST_GET_ALL = 'accountDetail/listPost/get';
+export const POST_GET_DETAIL = 'postDetail/get';
+export const CHANGE_STATUS_ACCOUNT = 'accountDetail/changeStatus';
+export const REVENUE_INFLUENCER_GET_ALL = 'revenueInfluencer/getAll';
+export const ISSUE_SNAP_GET_ALL = 'issueSnap/getAll';
+export const ISSUE_SNAP_POST_FOR_ACCOUNT = 'issueSnap/issueSnapForAccount';
+export const BOX_ANALYSIS_GET = 'boxAnalytics/get';
+export const CHART_ANALYSIS_GET = 'chartAnalytics/get';
+export const REMOVE_POST = 'postDetail/remove';
+export const DATA_ANALYSIS_GET_POSTS = 'analysis/post/get';

@@ -1,0 +1,33 @@
+.content {
+  .content_analytic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+
+  .content_chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: white;
+    margin-top: 24px;
+
+    .content_chart-selection {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .type_chart-select {
+        width: 150px;
+      }
+    }
+
+    .content_char-bar {
+      width: 100% !important;
+      height: calc(100vh - 263px - 64px - 56px) !important;
+    }
+  }
+}

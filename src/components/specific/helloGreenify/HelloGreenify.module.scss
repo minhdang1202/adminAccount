@@ -1,0 +1,21 @@
+.hello_world {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: 600;
+
+  animation: 3s greenify-text ease-in-out;
+}
+
+@keyframes greenify-text {
+  0% {
+    opacity: 0;
+    transform: translate(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

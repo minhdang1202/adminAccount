@@ -1,0 +1,33 @@
+.fans {
+  height: 100%;
+}
+.search_box {
+  width: 100%;
+  max-width: 325px;
+}
+.fans_fan-name {
+  padding-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fans_col-following {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.fans_following-icon-sort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #bfbfbf;
+}
+.fans_following-icon-active {
+  color: #1890ff;
+}
+
+// table row
+.table-row-pointer {
+  cursor: pointer;
+}

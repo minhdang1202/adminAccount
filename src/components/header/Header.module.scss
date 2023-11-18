@@ -1,0 +1,42 @@
+.adminHeader {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logout {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header_logout-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline;
+  color: #999;
+  margin-right: 8px;
+}
+.dropdown-container ul li:first-child:hover {
+  background-color: white !important;
+}
+
+.header_dropdown-icon {
+  width: 20px;
+  height: 20px;
+}
+.header_dropdown-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.header_dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_action {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 0;
+}

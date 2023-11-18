@@ -1,0 +1,28 @@
+.required-label-custom::before {
+  content: '*';
+  color: red;
+  margin-right: 4px;
+}
+.form-detail_space-compact,
+.form-detail_input-date {
+  width: 100%;
+}
+
+.form-detail_switch-text {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.form-detail_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .form-detail_btn-delete {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .form-detail_btn-submit {
+    margin: 0 0 0 8px;
+  }
+}

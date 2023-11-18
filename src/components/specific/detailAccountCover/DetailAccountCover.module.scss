@@ -1,0 +1,35 @@
+.cover_container {
+  position: relative;
+
+  .cover_background-img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #fafafa;
+  }
+
+  .cover_avatar {
+    position: absolute;
+    left: 44px;
+    bottom: -25%;
+    display: flex;
+    align-items: center;
+
+    .cover_avatar-img {
+      display: inline-block;
+      margin-right: 32px;
+      box-shadow: 1px 1px 10px #ccc;
+      background: #bfbfbf;
+    }
+
+    .cover_quantity {
+      margin-top: 44px;
+      color: #1677ff;
+
+      .divider {
+        border-inline-start: 1px solid rgba(0, 0, 0, 1);
+      }
+    }
+  }
+}
