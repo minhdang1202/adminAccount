@@ -122,7 +122,7 @@ export const barChartAnalyticConfig = ({ data, title, label }: IAnalyticChartPro
       plugins: {
         legend: {
           display: true,
-          onClick: () => { },
+          onClick: () => {},
         },
         tooltip: {
           intersect: true,
@@ -201,9 +201,9 @@ export const LIST_TAB_INFLUENCER_DETAIL = {
   },
 };
 
-export const baseURL = process.env.REACT_APP_BASE_URL;
+export const baseURL = 'https://greenifyvn.site/api';
 
-export const apiKey = process.env.REACT_APP_API_KEY;
+export const apiKey = '7Me?JEW4Z+hrTI+w7Me?JEW4Z+hrTI+w7Me?JEW4Z+hrTI+w7Me?JEW4Z+hrTI+w';
 
 export const urlApiAuth = {
   login: 'admin/auth/login',
@@ -332,7 +332,7 @@ export const EMPTY_STRING = '';
 export const ZERO = 0;
 
 export const REGEX = {
-  PHONE_NUMBER: /^[0-9]{10}$/
-}
+  PHONE_NUMBER: /^[0-9]{10}$/,
+};
 
 export const DATE_FORMAT_DATE_PICKER = 'YYYY/MM/DD';
